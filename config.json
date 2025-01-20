@@ -1,0 +1,19 @@
+{
+    "name": "Extractor",
+    "multiclick": [
+      "ytd-button-renderer.ytd-comment-replies-renderer#more-replies",
+      "#button > ytd-button-renderer > yt-button-shape > button > yt-touch-feedback-shape > div > div.yt-spec-touch-feedback-shape__fill"
+    ],
+    "elements": {
+      "header": "div.tab-controls",
+      "image": "header img"
+    },
+    "repeating_elements": [
+      {"selector": "div.marketplace-card"},
+      {}
+    ],
+    "xhr_urls":[
+      "https://www.youtube.com/youtubei/v1/next?"
+    ],
+    "downloadFileName": "test_meta.txt"
+  }

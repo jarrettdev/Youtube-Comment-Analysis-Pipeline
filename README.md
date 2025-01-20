@@ -1,7 +1,13 @@
 # Youtube Comment Analysis Pipeline
 
+
+## Frontend Implementation
+
+[![Landing page](landing-page.png)](https://comment-cow.vercel.app/)
+
+[Frontend code can be found here](https://github.com/jarrettdev/CommentCow)
   
-  
+## Backend Workflow
 
 1. **Initial Channel Scraping (Every ~6 hours via crontab)**
 
